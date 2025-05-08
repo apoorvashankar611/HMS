@@ -1,45 +1,130 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Hospital Management System
 
-## Available Scripts
-In the project directory, you can run:
 
-### `npm start`
+Hospital Management System using MongoDb, Express and React
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Need to  work on
 
-### `npm test`
+1. Ability to accept the appointment by the doctor to acknowledge the patient that their appointment has been approved.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+2. User should not be allowed to register if he/she tries to provide the already registered email ID.
+The password should be encrypted and the password field shouldn't be displayed in the admin panel.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Enables users to generate invoices, track payments, and manage billing information for patients.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Addition of more fields in the prescription statement to make it more specific one.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Addition of more details on payment - such as date of the payment made, amount paid, etc.
 
-### `npm run eject`
+6. Allows doctors and healthcare providers to create and manage their profiles, including specialties, availability, and contact information.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Language and Technology used:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Html,css
+2. Javascript
+3. React
+4. MongoDb
+5. Express
+6. Redux Toolkit 
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Installing
 
-## Learn More
+# Installing - easy ::
+1.	Download the repository
+```
+git clone https://github.com/margiki/NHS-nodejs-webapp
+```
+2.	Open the Terminal (Linux & MacOS) or PowerShell (Windows) and change directory to the project folder.
+3. Go to frontend folder and type " npm install " in the terminal and press Enter.All the dependencies of frontend would be installed.
+```bash 
+cd frontend 
+npm install 
+```
+4. Go to backed  folder and type " npm install " in the terminal and press Enter.All the dependencies of backed  would be installed.
+```bash 
+cd backend  
+npm install 
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5.	Go back to the Terminal (PowerShell) and be sure that you are pointing inside the project folder. To open the application, type ‘npm run dev ’ and press Enter.
+6.	The application should be live on the local port 3000.  
+7.	Type http://localhost:3000/ into a browser.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+8.	Now you should be inside the application
+
+
+
+## Gettint Into The project
+
+
+## Screenshots
+
+## HomePage
+Hospital Management System in mern stack. This system has a ‘Home’ page from where the patient & administrator can login into their accounts by toggling the tabs accordingly...
+
+![homepage](<Screenshot (4).png>)
+
+
+
+## Contact us page
+
+‘Contact’ page allows users to provide feedback or queries about the services of the hospital. 
+![contact page](<Screenshot (9).png>)
+
+
+## Login
+To make  a Appointment of Doctor user must be login first.
+
+![login page](login.png)
+
+
+##  Book his/her appointment:
+After Login in successfully user book their  Appointment. The appointment form requires patients to select  Date and Time that they want to meet with the doctor and add their desease. The consultancy fee will be added by the administrator.
+
+![Appoitnment](<Screenshot (7).png>)
+
+
+## Add invoice from admin pannel
+
+After the process of Appointment is completed.Administrator add the invoice for each Appointment.
+
+
+![add invoice](<Screenshot (20)-1.png>)
+
+
+## payment 
+
+ Go to dashboard to see history of Appointment.  Now user can pay his bill through khalti payment gateway.
+
+![user-dashboard](<Screenshot (17).png>)
+
+
+![khalti-payment](<Screenshot (18).png>)
+
+
+
+
+
+## Admin module
+
+   This module is the heart of our project where an admin can see the list of all patients. Admin also can add the invoice for each user..who make a appointment of doctor. Admin can also Add docotor ,Delete Doctor.
+
+   
+![admin-user](<Screenshot (20).png>)
+
+
+![admin-doctor](<Screenshot (19).png>)
+
+
+
+
+
+
+
+
+
+
